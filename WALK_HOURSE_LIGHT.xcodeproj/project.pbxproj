@@ -20,6 +20,8 @@
 		8510F7CD1C4E67CD001429F7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8510F7C01C4E67CD001429F7 /* View+MASAdditions.m */; };
 		8510F7CE1C4E67CD001429F7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8510F7C31C4E67CD001429F7 /* ViewController+MASAdditions.m */; };
 		852E40B41C4E6E7A0021D07B /* ZLBBigWordsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852E40B31C4E6E7A0021D07B /* ZLBBigWordsDetailViewController.m */; };
+		852E40DC1C5242FB0021D07B /* Aircraft.png in Resources */ = {isa = PBXBuildFile; fileRef = 852E40DB1C5242FB0021D07B /* Aircraft.png */; };
+		852E40E01C525D1C0021D07B /* ZLBMineText.m in Sources */ = {isa = PBXBuildFile; fileRef = 852E40DF1C525D1C0021D07B /* ZLBMineText.m */; };
 		854D5ABC1C4CFB3400ED62BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D5ABB1C4CFB3400ED62BC /* main.m */; };
 		854D5ABF1C4CFB3400ED62BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D5ABE1C4CFB3400ED62BC /* AppDelegate.m */; };
 		854D5AC71C4CFB3400ED62BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854D5AC61C4CFB3400ED62BC /* Assets.xcassets */; };
@@ -62,6 +64,9 @@
 		8510F7C31C4E67CD001429F7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		852E40B21C4E6E7A0021D07B /* ZLBBigWordsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBBigWordsDetailViewController.h; sourceTree = "<group>"; };
 		852E40B31C4E6E7A0021D07B /* ZLBBigWordsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBBigWordsDetailViewController.m; sourceTree = "<group>"; };
+		852E40DB1C5242FB0021D07B /* Aircraft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aircraft.png; sourceTree = "<group>"; };
+		852E40DE1C525D1C0021D07B /* ZLBMineText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBMineText.h; sourceTree = "<group>"; };
+		852E40DF1C525D1C0021D07B /* ZLBMineText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBMineText.m; sourceTree = "<group>"; };
 		854D5AB71C4CFB3400ED62BC /* WALK_HOURSE_LIGHT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WALK_HOURSE_LIGHT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		854D5ABB1C4CFB3400ED62BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		854D5ABD1C4CFB3400ED62BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +130,15 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		852E40DD1C525D0D0021D07B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				852E40DE1C525D1C0021D07B /* ZLBMineText.h */,
+				852E40DF1C525D1C0021D07B /* ZLBMineText.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		854D5AAE1C4CFB3400ED62BC = {
 			isa = PBXGroup;
 			children = (
@@ -144,11 +158,12 @@
 		854D5AB91C4CFB3400ED62BC /* WALK_HOURSE_LIGHT */ = {
 			isa = PBXGroup;
 			children = (
+				852E40DD1C525D0D0021D07B /* View */,
 				854D5AD11C4CFB8100ED62BC /* Library */,
 				854D5ABD1C4CFB3400ED62BC /* AppDelegate.h */,
 				854D5ABE1C4CFB3400ED62BC /* AppDelegate.m */,
+				852E40DB1C5242FB0021D07B /* Aircraft.png */,
 				854D5ADC1C4CFC4200ED62BC /* Controllers */,
-				854D5ADD1C4CFC4200ED62BC /* View */,
 				854D5AC61C4CFB3400ED62BC /* Assets.xcassets */,
 				854D5AC81C4CFB3400ED62BC /* LaunchScreen.storyboard */,
 				854D5ACB1C4CFB3400ED62BC /* Info.plist */,
@@ -200,13 +215,6 @@
 				852E40B31C4E6E7A0021D07B /* ZLBBigWordsDetailViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		854D5ADD1C4CFC4200ED62BC /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +277,7 @@
 				854D5ACA1C4CFB3400ED62BC /* LaunchScreen.storyboard in Resources */,
 				854D5AC71C4CFB3400ED62BC /* Assets.xcassets in Resources */,
 				8510F7C41C4E67CD001429F7 /* Info.plist in Resources */,
+				852E40DC1C5242FB0021D07B /* Aircraft.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +290,7 @@
 			files = (
 				854D5ABF1C4CFB3400ED62BC /* AppDelegate.m in Sources */,
 				854D5ABC1C4CFB3400ED62BC /* main.m in Sources */,
+				852E40E01C525D1C0021D07B /* ZLBMineText.m in Sources */,
 				8510F7CB1C4E67CD001429F7 /* NSArray+MASAdditions.m in Sources */,
 				854D5ADA1C4CFB8B00ED62BC /* RESideMenu.m in Sources */,
 				854D5AD91C4CFB8B00ED62BC /* RECommonFunctions.m in Sources */,
