@@ -10,5 +10,7 @@
 
 @interface ZLBBigWordsDetailViewController : UIViewController
 @property (nonatomic, strong) NSString *string;
-
+@property (nonatomic, assign) NSInteger labelSize;
+@property (nonatomic, strong) UIColor *labelColor;
+@property (nonatomic, assign) BOOL isLoop;
 @end
